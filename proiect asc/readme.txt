@@ -11,8 +11,8 @@ Cum se utilizează
 	
 ATENTIE!! In introducerea comenzilor in loc de <parola> va fi scrisa direct parola fara '<' , respectiv '>' .
 Aceeasi pasi se urmeaza si pe Ubuntu, dar comenzile contin "python3" in loc de python, deci:
-python3 encrypt.py <parola> input.txt output
-python3 decrypt.py <parola> output input_recuperat.txt
+	python3 encrypt.py <parola> input.txt output
+	python3 decrypt.py <parola> output input_recuperat.txt
 
 Echipa:
 	- Florea Mădălin-Alexandru (gr.143)
