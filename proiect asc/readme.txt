@@ -16,4 +16,3 @@ Echipa:
 - Gheorghe Robert-Mihai
 
 Sursa textului din input.txt: https://ro.m.wikisource.org/wiki/Ion/Glasul_p%C4%83m%C3%A2ntului
-Cheie: ProiectASC123
