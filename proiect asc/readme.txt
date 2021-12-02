@@ -8,12 +8,6 @@ Cum se utilizează
 		-introducere comenzi:
 			python encrypt.py <parola> input.txt output
 			python decrypt.py <parola> output input_recuperat.txt 
-	Instructiuni pentru a rula in Ubuntu
-		-deschidere terminal 
-		-accesare locatie fisiere
-		-introducere comenzi:
-			python3 encrypt.py <parola> input.txt output
-			python3 decrypt.py <parola> output input_recuperat.txt 
 ATENTIE!! In introducerea comenzilor in loc de <parola> va fi scrisa direct parola fara '<' , respectiv '>' .
 
 Echipa:
