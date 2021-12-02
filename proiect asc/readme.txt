@@ -1,7 +1,6 @@
 Cum se utilizează
  	Mediul de lucru
 		- Python 3.10.0
-	Metode de rulare
 	Instructiuni pentru a rula in Windows
 		-deschidere cmd/terminal 
 		-accesare locatie fisiere
