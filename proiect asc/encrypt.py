@@ -13,6 +13,7 @@ sir_intrare = g.read(1)
 while sir_intrare:
     f.write((ord(sir_intrare) ^ ord(cheie[i % len(cheie)])).to_bytes(1, 'big'))
     sir_intrare = g.read(1)
+    i += 1
     
 g.close()
 f.close()
