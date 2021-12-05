@@ -34,8 +34,7 @@ Cheia pe care au folosit-o: parola121alorap
 
 Cerința 2: Aflați cheia cu care a fost criptat fișierul output al echipei adverse.
 
-Partea 1: Folosiți fișierul input.txt, output și fișierele sursă de pe pagina github a echipei adverse pentru a afla cheia (dacă cheia este disponibilă undeva pe pagina github a
-echipei adverse, folosiți-o; folosiți-vă de orice mijloace tehnice pentru a descoperi cheia).
+Partea 1: Folosiți fișierul input.txt, output și fișierele sursă de pe pagina github a echipei adverse pentru a afla cheia (dacă cheia este disponibilă undeva pe pagina github a echipei adverse, folosiți-o; folosiți-vă de orice mijloace tehnice pentru a descoperi cheia).
 	-> Pentru a rezolva această cerință, ne-am folosit de scriptul cerinta2partea1.py. Pe măsură ce parcurgem câte un caracter din output-ul, respectiv input-ul adversarilor, reținem într-un string parola obținută prin XOR-area acestora și îl trecem prin funcția de hash. Dacă hash-ul parolei noastre coincide cu cel din encrypt-ul echipei adverse, afișăm parola.
 
 Pentru fiecare lungime între 10 și 15 caractere și fiecare poziție din parolă, verificăm fiecare caracter care poate exista în parolă prin citirea din fișierul de output și vedem dacă XOR-at cu acel caracter citit de poziția x dă un caracter valid care poate fi regăsit în input. Ulterior, reținem toate posibilitățile, apoi generăm toate parolele posibile prin produs cartezian și le comparăm cu hash-ul din encrypt.
