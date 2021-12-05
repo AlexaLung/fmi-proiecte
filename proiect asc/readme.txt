@@ -1,4 +1,4 @@
-Echipa noastră:
+Echipa noastră: 
 	Nume: XorT11am
 	Membrii:
 		- Florea Mădălin-Alexandru (grupa 143)
